@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ChatDemo-UI3.0.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>718BEB81162E59E0AEB175EDAABB1687FC119E45</string>
+				<key>dateExpires</key>
+				<string>2018/10/9</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>718BEB81162E59E0AEB175EDAABB1687FC119E45</string>
+						<key>dateExpires</key>
+						<string>2018/10/9</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>Hyphenate.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>V7P2P9T7VA</string>
+						<key>name</key>
+						<string>Harbin Togerther Technology Co.ltd</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>V7P2P9T7VA.Gato-Meng.DcotorButterful</string>
+				<key>aps-environment</key>
+				<string>production</string>
+				<key>com.apple.developer.icloud-container-identifiers</key>
+				<array>
+					<string>iCloud.Gato-Meng.DcotorButterful</string>
+				</array>
+				<key>com.apple.developer.icloud-services</key>
+				<array>
+					<string>CloudDocuments</string>
+				</array>
+				<key>com.apple.developer.team-identifier</key>
+				<string>V7P2P9T7VA</string>
+				<key>com.apple.developer.ubiquity-container-identifiers</key>
+				<array>
+					<string>iCloud.Gato-Meng.DcotorButterful</string>
+				</array>
+				<key>com.apple.developer.ubiquity-kvstore-identifier</key>
+				<string>V7P2P9T7VA.Gato-Meng.DcotorButterful</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>ChatDemo-UI3.0.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>7ca0be03-0290-427c-a5d4-14d21d8b46f7</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: Gato-Meng.DcotorButterful</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>V7P2P9T7VA</string>
+				<key>name</key>
+				<string>Harbin Togerther Technology Co.ltd</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

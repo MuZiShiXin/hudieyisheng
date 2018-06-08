@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="194" id="KGk-i7-Jjw" customClass="MyCardShareCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="194"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="193"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="分享名片" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zBH-OO-LQJ">
+                        <rect key="frame" x="135.5" y="25" width="49.5" height="14.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" id="FIP-GG-54A"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" id="yHY-ek-jYb"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.17254901960784313" green="0.17254901960784313" blue="0.17254901960784313" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fJa-mE-Uxy">
+                        <rect key="frame" x="27" y="32" width="101.5" height="1"/>
+                        <color key="backgroundColor" red="0.73333333333333328" green="0.73333333333333328" blue="0.73333333333333328" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="FnI-bo-fkR"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xh0-h3-WaH">
+                        <rect key="frame" x="192" y="32" width="101" height="1"/>
+                        <color key="backgroundColor" red="0.73333333329999995" green="0.73333333329999995" blue="0.73333333329999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="VXm-sa-z4z"/>
+                        </constraints>
+                    </view>
+                    <view tag="100" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LAs-IX-7Zr" customClass="MyCardShareView">
+                        <rect key="frame" x="0.0" y="55" width="106.5" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="lNN-Wp-Ohz"/>
+                        </constraints>
+                    </view>
+                    <view tag="101" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xYx-W4-4mv" customClass="MyCardShareView">
+                        <rect key="frame" x="106.5" y="55.5" width="107" height="70"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="AeX-Cy-LTY"/>
+                        </constraints>
+                    </view>
+                    <view tag="102" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AR6-Tl-8QV" customClass="MyCardShareView">
+                        <rect key="frame" x="213.5" y="55" width="107" height="70"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="SBj-S0-NHQ"/>
+                        </constraints>
+                    </view>
+                    <view tag="103" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9za-He-RHa" customClass="MyCardShareView">
+                        <rect key="frame" x="0.0" y="127" width="106.5" height="70"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="huF-Or-co3"/>
+                        </constraints>
+                    </view>
+                    <view tag="104" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rgz-5d-q4M" customClass="MyCardShareView">
+                        <rect key="frame" x="106" y="127.5" width="107" height="70"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="6gy-RC-OMJ"/>
+                        </constraints>
+                    </view>
+                    <view tag="105" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lo2-nW-qXZ" customClass="MyCardShareView">
+                        <rect key="frame" x="213" y="127.5" width="107" height="70"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="gox-QU-UsV"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="fJa-mE-Uxy" firstAttribute="centerY" secondItem="zBH-OO-LQJ" secondAttribute="centerY" id="05T-VE-8Dj"/>
+                    <constraint firstItem="lo2-nW-qXZ" firstAttribute="top" secondItem="rgz-5d-q4M" secondAttribute="top" id="42y-Yx-loh"/>
+                    <constraint firstItem="rgz-5d-q4M" firstAttribute="width" secondItem="xYx-W4-4mv" secondAttribute="width" id="5zP-Rr-6L4"/>
+                    <constraint firstItem="xYx-W4-4mv" firstAttribute="leading" secondItem="LAs-IX-7Zr" secondAttribute="trailing" id="883-YC-KaW"/>
+                    <constraint firstItem="9za-He-RHa" firstAttribute="width" secondItem="rgz-5d-q4M" secondAttribute="width" id="8hu-WC-T40"/>
+                    <constraint firstItem="xh0-h3-WaH" firstAttribute="centerY" secondItem="fJa-mE-Uxy" secondAttribute="centerY" id="94r-ey-PAq"/>
+                    <constraint firstItem="zBH-OO-LQJ" firstAttribute="leading" secondItem="fJa-mE-Uxy" secondAttribute="trailing" constant="7" id="HMa-dZ-JhO"/>
+                    <constraint firstItem="xh0-h3-WaH" firstAttribute="leading" secondItem="zBH-OO-LQJ" secondAttribute="trailing" constant="7" id="IbU-GX-QOd"/>
+                    <constraint firstItem="rgz-5d-q4M" firstAttribute="top" secondItem="zBH-OO-LQJ" secondAttribute="bottom" constant="88" id="JvV-RU-hh3"/>
+                    <constraint firstItem="rgz-5d-q4M" firstAttribute="leading" secondItem="9za-He-RHa" secondAttribute="trailing" id="KBg-1N-z4c"/>
+                    <constraint firstItem="lo2-nW-qXZ" firstAttribute="leading" secondItem="rgz-5d-q4M" secondAttribute="trailing" id="QHT-yW-fCO"/>
+                    <constraint firstItem="xYx-W4-4mv" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="1/3" id="Qnm-k6-GuG"/>
+                    <constraint firstItem="zBH-OO-LQJ" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="Ssm-G9-ISo"/>
+                    <constraint firstItem="rgz-5d-q4M" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="TOE-B4-bw0"/>
+                    <constraint firstItem="9za-He-RHa" firstAttribute="top" secondItem="rgz-5d-q4M" secondAttribute="top" id="Tbq-v8-Cqv"/>
+                    <constraint firstItem="LAs-IX-7Zr" firstAttribute="width" secondItem="xYx-W4-4mv" secondAttribute="width" id="Z9m-oU-wqB"/>
+                    <constraint firstItem="AR6-Tl-8QV" firstAttribute="leading" secondItem="xYx-W4-4mv" secondAttribute="trailing" id="cpF-eb-g3f"/>
+                    <constraint firstItem="zBH-OO-LQJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="17" id="eXu-Vj-nDU"/>
+                    <constraint firstItem="AR6-Tl-8QV" firstAttribute="top" secondItem="xYx-W4-4mv" secondAttribute="top" id="g6f-um-Asp"/>
+                    <constraint firstItem="xYx-W4-4mv" firstAttribute="top" secondItem="zBH-OO-LQJ" secondAttribute="bottom" constant="16" id="hQe-ZP-LNA"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="xh0-h3-WaH" secondAttribute="trailing" constant="19" id="nz7-r8-7a4"/>
+                    <constraint firstItem="LAs-IX-7Zr" firstAttribute="top" secondItem="xYx-W4-4mv" secondAttribute="top" id="ofN-Dn-vf1"/>
+                    <constraint firstItem="fJa-mE-Uxy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="19" id="p1I-VM-8Qx"/>
+                    <constraint firstItem="AR6-Tl-8QV" firstAttribute="width" secondItem="xYx-W4-4mv" secondAttribute="width" id="qdZ-NU-xEM"/>
+                    <constraint firstItem="lo2-nW-qXZ" firstAttribute="width" secondItem="rgz-5d-q4M" secondAttribute="width" id="t3p-bg-IlR"/>
+                    <constraint firstItem="LAs-IX-7Zr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="vgH-h1-5JU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
+        </tableViewCell>
+    </objects>
+</document>
